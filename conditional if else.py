@@ -1,0 +1,98 @@
+'''
+num=eval(input("Enter a number:"))
+
+if num==num[::-1]:
+    print("it's a palindrome")
+
+else:
+    print("not a palindrome")
+'''
+
+'''
+x=eval(input("Enter 1st string:"))
+
+y=eval(input("Enter 2nd string:"))
+
+
+if len(x)==len(y):
+    concat=x+y
+    print(concat)
+else:
+    print(len(x))
+    print(len(y))
+'''
+'''
+
+x='ABC'
+y='ABCd'
+
+low=0
+high=len(y)-1
+
+mid=(low+high)//2
+
+if id(x)==id(y):
+    print("middle element of second collection :",x[mid])
+else:
+    print("1st item of 1st collection: ",x[0],id(x))
+
+'''
+
+'''
+x='abcdefghijkl'
+
+low=0
+high=len(x)-1
+
+mid=(low+high)//2
+
+if len(x)>10 and (ord(x[0])+ord(x[-1]))%5==0:
+    print("first character:",ord(x[0]))
+    print("midle character:",ord(x[mid]))
+    print("last character:",ord(x[-1]))
+
+else:
+    print(x)
+    print(x)
+    print(x)
+
+'''
+'''
+a=["hello",123,"123"]
+
+low=0
+high=len(a)-1
+
+mid=(low+high)//2
+
+if isinstance(a[mid],str):
+    print(a)
+else:
+    print(a[mid])
+'''
+
+
+
+
+'''
+x="abcd"
+
+if len(x)>=2:
+    new_string=x[-1]+x[1:-1]+x[0]
+
+    print(new_string)
+
+else:
+    print(x)
+'''
+
+
+
+
+
+
+
+
+
+
+
