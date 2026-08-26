@@ -123,11 +123,32 @@ else:
 
 
 
+'''
+val1=eval(input("Enter 1st value:"))
+val2=eval(input("Enter 2nd value:"))
+
+if id(val1)==id(val2):
+    print(val2[-1])
+else:
+    print(val1[0])
+'''
 
 
+'''
+char="Haehvk"
 
+low=0
+high=len(char)-1
 
+mid=(low+high)//2
 
+if len(char)>=3 and char[mid] in 'aeiouAEIOU' and ord(char[0])%2==0:
+    print(chr(ord(char[mid])-1))
+    print(char*5)
 
+else:
+    print(char*3)
+    
+'''
 
 
