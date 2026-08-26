@@ -86,6 +86,35 @@ else:
     print(x)
 '''
 
+'''
+num=eval(input("Enter a number:"))
+
+if num%7==0 and num%5!=0:
+    print("Actual value is:",num)
+else:
+    print(num*4)
+'''
+
+'''
+val1=eval(input("Enter a value:"))
+val2=eval(input("Enter a value2:"))
+
+if id(val1)==id(val2):
+    print("address of values:",id(val1))
+else:
+    print("1st value address:",id(val1))
+    print("2nd value address:",id(val2))
+'''
+
+
+chara=eval(input("Enter character:"))
+
+if not chara.isalnum():
+    print(chara*3)
+
+else:
+    print(chara*5)
+
 
 
 
