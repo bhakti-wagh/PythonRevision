@@ -106,7 +106,7 @@ else:
     print("2nd value address:",id(val2))
 '''
 
-
+'''
 chara=eval(input("Enter character:"))
 
 if not chara.isalnum():
@@ -114,6 +114,12 @@ if not chara.isalnum():
 
 else:
     print(chara*5)
+
+
+'''
+
+
+
 
 
 
