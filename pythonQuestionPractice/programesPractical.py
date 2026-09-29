@@ -86,7 +86,7 @@ according to different consumption slabs.
 201-300->15
 300>-> 20
 '''
-
+'''
 units=eval(input("Enter electricity units:"))
 
 if units<=100:
@@ -104,3 +104,23 @@ else :
 
 
 print(f"Electricity bill :{bill}")
+'''
+
+
+
+'''
+. Write a Python program to accept the price and quantity of three products
+and calculate the subtotal, discount, GST, and final payable amount.
+
+'''
+
+quantity=eval(input("Enter quantity of product:"))
+price=eval(input("Enter product price"))
+
+subtotal=0
+amt=price*quantity
+subtotal+=amt
+
+print("Amount:",amt)
+print("Subtotal:",subtotal)
+
