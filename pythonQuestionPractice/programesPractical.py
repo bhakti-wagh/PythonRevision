@@ -113,9 +113,10 @@ print(f"Electricity bill :{bill}")
 and calculate the subtotal, discount, GST, and final payable amount.
 
 '''
-
+'''
 quantity=eval(input("Enter quantity of product:"))
-price=eval(input("Enter product price"))
+price=eva
+1l(input("Enter product price"))
 
 subtotal=0
 amt=price*quantity
@@ -123,4 +124,158 @@ subtotal+=amt
 
 print("Amount:",amt)
 print("Subtotal:",subtotal)
+'''
+
+'''
+#checking palindrome using while loop
+num=int(input("Enter a number:"))
+
+original =num
+rev=0
+
+while num>0:
+    digit = num%10
+    rev= rev*10+digit
+    num= num//10
+
+if original == rev:
+    print("Palindrome")
+else:
+    print("Not palindrome")
+'''
+
+
+'''
+#sum and product of number
+num=int(input("Enter a number:"))
+
+sum1=0
+pro=1
+
+while num>0:
+
+    digit = num%10
+
+    sum1 = sum1 +digit
+
+    pro = pro * digit
+
+    num = num //10
+
+print("Sum of digits :",sum1)
+print("Products of digits :",pro)
+
+'''
+
+'''
+#numbers of digit , largest digit and smallest digit
+num = int(input("Enter a number :"))
+
+count=0
+largest =0
+smallest =9
+
+while num>0:
+
+    digit = num%10
+
+    count= count +1
+
+    if digit>largest:
+        largest = digit
+
+    if digit<smallest:
+        smallest = digit
+
+    num = num //10
+
+print("Count is ", count)
+print("Largest is ", largest)
+print("Smallest is", smallest)
+'''
+
+'''
+num = int(input("Enter a number:"))
+
+total =0
+
+b=str(num)
+
+power= len(b)
+
+for i in b:
+    total = total+int(i)**power
+
+if total == num:
+    print("Armstsrong")
+
+else:
+    print("not armstrong")
+
+'''
+
+'''
+num = int(input("Enter a number:"))
+
+dum = num
+total =0
+
+
+num_len=len(str(num))
+
+while num>0:
+
+    last_digit= num%10
+
+    total = total + last_digit**num_len
+
+    num= num//10
+    
+
+if total == dum:
+    print("Armstsrong")
+
+else:
+    print("not armstrong")
+
+'''
+
+
+#prime number
+'''
+num = int(input("Enter a number"))
+
+count=0
+
+for i in range(1,num+1):
+
+    if num%i==0:
+        count = count+1
+
+if count ==2:
+    print("Prime number")
+
+else :
+    print("Not prime number")
+'''
+
+
+'''
+seconds= int(input("Enter  seconds:"))
+
+hours = seconds//3600
+remaining = seconds %3600
+
+minutes = remaining //60
+sec = remaining %60
+
+
+print("Hours:",hours)
+print("Minutes:",minutes)
+print("Sec:",sec)
+
+'''
+
+price1=
+
 
